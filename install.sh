@@ -1,0 +1,1 @@
+kubectl patch service hello-whale-svc -p '{"spec": {"selector" :{"version": "green"}}}'
